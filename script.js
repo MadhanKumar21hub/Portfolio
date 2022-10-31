@@ -87,6 +87,6 @@
     function showDemoWeb(){
         const showWebsite = document.getElementById('underConstrction');
         showWebsite.style.display = 'none'
-        document.body.style.overflow = 'scroll'
+        document.body.style.overflowY = 'scroll'
     }
 
