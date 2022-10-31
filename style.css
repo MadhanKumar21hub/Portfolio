@@ -7,6 +7,7 @@
 body{
     background: var(--primary-color);
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
     /* font-family: 'Orelega One', cursive; */
 }
 html{
@@ -496,4 +497,58 @@ footer .sm a:hover{
         top: -28px;
         margin-left: 210px;
     }
+}
+
+
+
+/* Under Constraction */
+#underConstrction{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: var(--color1);
+    color: var(--color2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#underConstrction h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+#underConstrction h1 span{
+    /* color: var(--color6); */
+    animation: cc infinite 15s ease-in-out;
+}
+@keyframes cc {
+    0%{
+        color: var(--color6);
+    }
+    25%{
+        color: var(--color4);
+    }
+    50%{
+        color: var(--color5);
+    }
+    75%{
+        color: var(--color3);
+    }
+    100%{
+        color: var(--primary-color);
+    }
+}
+#underConstrction button{
+    padding: 10px 30px;
+    font-size: 20px;
+    background: var(--color3);
+    border: none;
+    outline: none;
+    border-radius: 10px 0 10px 0;
+    color: var(--color2);
+    font-weight: bold;
+    cursor: pointer;
 }
