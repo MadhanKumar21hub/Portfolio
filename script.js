@@ -86,7 +86,8 @@
     // Under Constraction
     function showDemoWeb(){
         const showWebsite = document.getElementById('underConstrction');
-        showWebsite.style.display = 'none'
-        document.body.style.overflowY = 'scroll'
+        showWebsite.style.display = 'none';
+        document.body.style.overflowY = 'scroll';
+        document.body.style.overflowX = 'hidden';
     }
 
